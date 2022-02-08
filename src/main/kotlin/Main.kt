@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
     minimumOf(5,7)
     rangeOf(4)
     inferredTypeOf(0.0F)
-    stringContains("wordle")
+    stringContains("evolution")
 }
 
 fun minimumOf(number1: Long, number2: Long){
@@ -70,4 +70,16 @@ fun stringContains(str : String){
     //    - contains the letter C, print the string and say it contains C.
     //    - is empty, inform the user that it is empty.
     //    - otherwise print the string and say it doesn't contain A, B or C.
+    if (str.uppercase().contains('A')) //I made all String characters uppercase so that I could check if the letter A is in the String, instead of having to check for capital A and small a's
+        println("The String contains the letter A")
+    if (str.uppercase().contains('B'))
+        println("The String contains the letter B")
+    if (str.uppercase().contains('C'))
+        println("The String contains the letter C")
+    if (str.isEmpty())
+        println("The String is empty.")
+    else
+        println("The String does not contain A, B, or C")
+
+
 }
