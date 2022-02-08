@@ -11,6 +11,12 @@
 //     a lower grade for the assignment as it is a software development tooling module.
 // Hint: the week 2 syntax labs are a good support for completing this project
 
+/**
+ * Christian Zaccaria(20092351) - SSD Year 2
+ * I got ideas on how to write a good git commit message through the following website:
+ * https://cbea.ms/git-commit/
+ * */
+
 fun main(args: Array<String>) {
     minimumOf(5,7)
     rangeOf(4)
